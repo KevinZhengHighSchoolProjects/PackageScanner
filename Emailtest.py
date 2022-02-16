@@ -20,7 +20,7 @@ scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/aut
 
 # Request all access (permission to read/send/receive emails, manage the inbox, and more)
 SCOPES = ['https://mail.google.com/']
-our_email = 'kaiwen.zheng@rectorywolves.org'
+our_email = '***'
 
 def gmail_authenticate():
     creds = None
@@ -58,5 +58,5 @@ def send_message(service, destination, obj, body):
       body=build_message(destination, obj, body)
     ).execute()
 
-send_message(service, "kaiwen.zheng@rectorywolves.org", "Test1111", "this is a teabdjkassjd")
+send_message(service, "***", "Test1111", "this is a teabdjkassjd")
 

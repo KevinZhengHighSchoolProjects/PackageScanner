@@ -19,8 +19,8 @@ import smtplib, ssl
 
 port = 465  # For SSL
 smtp_server = "smtp.gmail.com"
-sender_email = "kaiwen.zheng@rectorywolves.org"  # Enter your address
-password = "Cbft2587"
+sender_email = "***"  # Enter your address
+password = "***"
 
 
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
